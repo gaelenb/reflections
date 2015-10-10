@@ -23,3 +23,9 @@ changes made to them
 The staging area adds a filter for only tracking changes and committing 
 the files that you that you add to it.
 	Thus you can choose what is part of a commit
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+	By only adding the files that you want committed.
+	You can also keep track of which files you’ve changed which should only be those that logically relate to a single commit.
+	Also, by having the original file in the repository you can compare the changes you’ve made and determine if they all belong in a single commit.  
