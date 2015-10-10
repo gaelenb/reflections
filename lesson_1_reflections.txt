@@ -1,0 +1,74 @@
+Learned how to compare two files from terminal.
+
+Seeing the comparison made it easier to locate where the error was introduced.
+
+new commands: 
+
+ Diff -u oldFile newFile
+
+ //This compares the two files and outputs to the terminal.
+	Lines that were added in the newFile have a +
+	
+	lines that were removed have a -
+
+	The -u makes the terminal’s output easier to read.
+
+
+?How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+You will spend far less time finding a change that breaks something because you have a working copy.
+
+Maybe also see how the code evolves over time.
+
+?When would I want to have a version of my code saved?
+
+Regular intervals would be nice for debugging small things as you are coding, though could cause space issues.
+
+When you are finished making whatever specific change you wanted to make 
+i.g.
+ version 01.0 for the first save 
+ 1.01 for regular interval saves
+ 1.1 for specific modular change.
+
+?Why do vcs like Git allow saving multiple files in one commit?
+
+In programming files can have a single change that effects other files
+	This makes it more logical to have one unifying commit
+	Files often depend on each other to work
+		Keeping them together across saves makes sense.
+
+?How can i use git log and git diff to view the history of files?
+
+git log shows all of the commits 
+	git log —-stat gives extra information
+		how many changes were made
+	who made the commit
+	a message describing the change
+		
+
+git diff compares two commits 
+	shows what was added and what was changed
+
+
+
+git checkout id goes here
+	make the file you’re using a previous commit
+
+
+?How VC make me more confident to make changes that could break something?
+	
+	Can easily go back to previous versions 
+	Even if the bug isn’t found before more commits are made, its pretty trivial to find where the bug was introduced 
+
+
+
+///////******* IMPORTANT IF I RUN INTO PROBLEMS LATER IN COURSE I MIGHT HAVE TYPED THE 2 FOLLOWING COMMANDS INCORRECTLY***************\\\\\\\\\\\\\\\
+
+git config --global push.default upstream
+git config --global merge.conflictstyle diff3
+
+
+?What do I want to try using Git for?
+
+	Sanity
+	website files
