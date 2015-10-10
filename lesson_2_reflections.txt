@@ -28,4 +28,11 @@ How can you use the staging area to make sure you have one commit per logical ch
 
 	By only adding the files that you want committed.
 	You can also keep track of which files you’ve changed which should only be those that logically relate to a single commit.
-	Also, by having the original file in the repository you can compare the changes you’ve made and determine if they all belong in a single commit.  
+	Also, by having the original file in the repository you can compare the changes you’ve made and determine if they all belong in a single commit. 
+
+
+When might you want to use branches to keep the commit history organized? How would it help?
+
+	When you are making significant changes to the repo
+	Really I’m not sure.
+	Collaboration to allow people to work on separate features 
