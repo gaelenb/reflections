@@ -36,3 +36,29 @@ When might you want to use branches to keep the commit history organized? How wo
 	When you are making significant changes to the repo
 	Really I’m not sure.
 	Collaboration to allow people to work on separate features 
+
+How do diagrams help visualize branch structure?
+
+	They’re a less abstract representation of what is going on when you create a branch
+	They help you see the commits that a branch is missing. 
+		Branch A is missing all of the commits up to the tip AND when B branches off
+		The master is missing the commit from A from a long time ago A LOT HAS CHANGED(maybe)! 
+		Branch B is missing everything up to the tip after it branched + what the master is missing from A 
+	So what happens when there’s a bug that was added before A branched? 
+
+        /A	
+— — — —/— — — — — —\— — — —Tip of the master
+	             \B
+
+
+What is the result of merging 2 branches together? Why represent it in the diagram the way we do?
+
+Merging 2 branches together creates a new commit 
+	This new commit contains all of both branches’ commits and their ore
+
+
+
+What are the pros and cons of Git’s automatic merging vs merging manually?
+
+	Time. Holy shit. Time.
+	
