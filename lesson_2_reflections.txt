@@ -1,0 +1,25 @@
+When you initialize a repo it adds the meta data files to the targt folder.
+
+It also makes the target folder the master copy.
+
+It is needed to save the metadata:
+	commit history
+
+How is the staging area different from the working directory and repository? 
+What value does it offer?
+
+The staging area is where you put files or folders that you want in a single
+commit.
+
+This differs from the working directory because it is simply local storage
+of files you don't want to track or commit. 
+
+
+It also differs from the repository:
+	the repo holds all the files that you have committed and all of the 
+changes made to them
+	
+ 
+The staging area adds a filter for only tracking changes and committing 
+the files that you that you add to it.
+	Thus you can choose what is part of a commit
