@@ -1,4 +1,4 @@
-When you initialize a repo it adds the meta data files to the targt folder.
+When you initialize a repo it adds the meta data files to the target folder.
 
 It also makes the target folder the master copy.
 
